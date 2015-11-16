@@ -1,6 +1,8 @@
 Spring Boot init.d script
 =========================
 
+###NOTE: As of Spring Boot 1.3 it is possible to have an official init.d script injected onto the front of a packaged .jar file.  Instructions found [in the Spring documentation](http://docs.spring.io/spring-boot/docs/1.3.x-SNAPSHOT/reference/html/deployment-install.html)
+
 This script is meant to run a spring-boot project as a linux service using initd. 
 It is meant as a template that can be reconfigured to an arbitrary war file. 
 
